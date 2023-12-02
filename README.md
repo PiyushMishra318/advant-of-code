@@ -11,19 +11,19 @@ To use this CLI, you need to have Go installed on your machine. If you don't hav
 1. Clone the repository to your local machine:
 
    ```sh
-   git clone git@github.com:PiyushMishra318/advant-of-code.git
+   git clone git@github.com:PiyushMishra318/advent-of-code.git
    ```
 
 2. Navigate to the cloned directory:
 
    ```sh
-   cd advant-of-code
+   cd advent-of-code
    ```
 
 3. Build the CLI tool:
 
    ```sh
-   go build -o advant-of-code
+   go build -o advent-of-code
    ```
 
 ## Usage
@@ -31,7 +31,7 @@ To use this CLI, you need to have Go installed on your machine. If you don't hav
 After building the application, you can run it using the following syntax:
 
 ```sh
-./advant-of-code [command] [year] [number]
+./advent-of-code [command] [year] [number]
 ```
 
 ### Commands
@@ -45,19 +45,19 @@ After building the application, you can run it using the following syntax:
 1. To solve a problem for the year 2023, problem number 1:
 
    ```sh
-   ./advant-of-code solve 2023 1
+   ./advent-of-code solve 2023 1
    ```
 
 2. To work on a problem (open in an editor) for the year 2023, problem number 1:
 
    ```sh
-   ./advant-of-code try 2023 1
+   ./advent-of-code try 2023 1
    ```
 
 3. To display help information:
 
    ```sh
-   ./advant-of-code --help
+   ./advent-of-code --help
    ```
 
 ## Contributing
